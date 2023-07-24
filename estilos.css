@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+
+div{
+    
+    width: 100%;
+}
+.contenedor{
+    background-image:url(imagene/editada.png);
+    background-repeat: no-repeat;
+    width: 100wv;
+    margin: auto;
+    text-align: center;
+    height: 100vh;
+    border-radius:20px ;
+    padding: 10px;
+    border:2px solid #ccc ;
+}
+
+p{
+    font-size: xx-large;
+    padding: 15%;
+    color: rgb(26, 27, 29);
+}
+
+button{
+    font-size: large;
+    padding: 0.75em;
+    color: blueviolet;
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+}
